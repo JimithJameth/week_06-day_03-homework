@@ -18,4 +18,8 @@ public class Driver {
   public Driveable getVehicle(){
     return this.vehicle;
   }
+
+  public void setVehicle(Driveable vehicle){
+  this.vehicle = vehicle;
+  }
 }

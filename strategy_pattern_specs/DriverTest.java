@@ -21,8 +21,8 @@ public class DriverTest {
 
   @Test
   public void canSetVehicle(){
-    QuadBike quadbike = new Quadbike("Blue")
+    QuadBike quadbike = new QuadBike("Blue", 30, "50cc");
     driver.setVehicle(quadbike);
-    assertEquals()
+    assertEquals(quadbike,driver.getVehicle());
   }
 }
