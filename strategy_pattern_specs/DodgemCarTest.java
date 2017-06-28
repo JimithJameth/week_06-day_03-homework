@@ -23,4 +23,9 @@ public class DodgemCarTest {
   public void averageSpeed(){
     assertEquals(20, dodgemcar.getAverageSpeed());
   }
+
+  @Test
+  public void getNumberOfSeats(){
+    assertEquals(2, dodgemcar.getNumberOfSeats());
+  }
 }

@@ -20,7 +20,7 @@ public int getAverageSpeed(){
   return this.averageSpeed;
 }
 
-public int numberOfSeats(){
+public int getNumberOfSeats(){
   return this.numberOfSeats;
 }
 public int driveDistance(int distance){
