@@ -1,7 +1,7 @@
 package strategy_pattern;
 import behaviours.*;
 
-public class DodgemCar implements Drivable{
+public class DodgemCar implements Driveable{
   
 String type;
 int averageSpeed;

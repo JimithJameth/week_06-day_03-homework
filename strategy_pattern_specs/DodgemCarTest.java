@@ -5,12 +5,13 @@ import strategy_pattern.*;
 public class DodgemCarTest {
 
   DodgemCar dodgemcar;
+  Driver driver;
   
 
   @Before
   public void before(){
     dodgemcar = new DodgemCar("Red", 20, 2);
-    // driver = new Driver("Jamie", dodgemcar );
+    driver = new Driver("Jamie", dodgemcar );
   }
 
   @Test

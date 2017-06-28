@@ -1,6 +1,6 @@
 package behaviours;
 
-public interface Drivable {
+public interface Driveable {
   int driveDistance(int distance);
 }
 
