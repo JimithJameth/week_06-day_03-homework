@@ -1,10 +1,10 @@
 package strategy_pattern;
 import behaviours.*;
 
-public class QuadBike implements Drivable{
+public class QuadBike implements Driveable{
 
 int averageSpeed;
-int engineCapacity;
+String engineCapacity;
 
 public QuadBike(int averageSpeed, String engineCapacity) {
 this.averageSpeed = averageSpeed;
@@ -15,8 +15,13 @@ public int getAverageSpeed(){
   return this.averageSpeed;
 }
 
-public int getEngineCapacity(){
+public String getEngineCapacity(){
   return this.engineCapacity;
+}
+
+public int driveDistance(int distance){
+  int time = distance/this.averageSpeed*60;
+  return time;
 }
 
 }

@@ -18,4 +18,9 @@ public class QuadBikeTest {
     public void averageSpeed(){
       assertEquals(30,quadbike.getAverageSpeed());
     }
+      
+  @Test
+    public void driveDistance(){
+      assertEquals(60,quadbike.driveDistance(30));
+      }
   }

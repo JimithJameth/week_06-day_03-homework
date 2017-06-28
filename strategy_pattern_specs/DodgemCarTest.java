@@ -31,6 +31,6 @@ public class DodgemCarTest {
 
   @Test
   public void driveDistance(){
-    assertEquals(60,dodgemcar.getdriveDistance());
+    assertEquals(60,dodgemcar.driveDistance(20));
   }
 }
