@@ -26,4 +26,8 @@ public int driveDistance(int distance){
   return time;
 }
 
+public String getType(){
+  return this.type;
+}
+
 }

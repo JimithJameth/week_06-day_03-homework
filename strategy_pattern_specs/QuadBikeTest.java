@@ -15,6 +15,11 @@ public class QuadBikeTest {
   }
 
   @Test
+  public void hasType(){
+    assertEquals("Blue", quadbike.getType());
+  }
+
+  @Test
     public void averageSpeed(){
       assertEquals(30,quadbike.getAverageSpeed());
     }

@@ -25,4 +25,5 @@ public class DriverTest {
     driver.setVehicle(quadbike);
     assertEquals(quadbike,driver.getVehicle());
   }
+
 }
