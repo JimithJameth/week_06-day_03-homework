@@ -1,10 +1,22 @@
-// import behaviours.*;
-// public class QuadBike implements Drivable{
-// int averageSpeed;
+package strategy_pattern;
+import behaviours.*;
 
-// public QuadBike(String type, int averageSpeed, int engineCapacity) {
-// this.averageSpeed = averageSpeed;
-// this.type = type;
-// this.engineCapacity = engineCapacity;
-// }
-// }
+public class QuadBike implements Drivable{
+
+int averageSpeed;
+int engineCapacity;
+
+public QuadBike(int averageSpeed, String engineCapacity) {
+this.averageSpeed = averageSpeed;
+this.engineCapacity = engineCapacity;
+}
+
+public int getAverageSpeed(){
+  return this.averageSpeed;
+}
+
+public int getEngineCapacity(){
+  return this.engineCapacity;
+}
+
+}

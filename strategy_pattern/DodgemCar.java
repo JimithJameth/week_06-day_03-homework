@@ -24,7 +24,8 @@ public int getNumberOfSeats(){
   return this.numberOfSeats;
 }
 public int driveDistance(int distance){
-  return 0;
+  int time = distance/this.averageSpeed*60;
+  return time;
 }
 
 }
