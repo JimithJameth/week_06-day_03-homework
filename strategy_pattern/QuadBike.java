@@ -3,12 +3,14 @@ import behaviours.*;
 
 public class QuadBike implements Driveable{
 
+String type;
 int averageSpeed;
 String engineCapacity;
 
-public QuadBike(int averageSpeed, String engineCapacity) {
+public QuadBike(String type, int averageSpeed, String engineCapacity) {
 this.averageSpeed = averageSpeed;
 this.engineCapacity = engineCapacity;
+this.type = type;
 }
 
 public int getAverageSpeed(){

@@ -15,7 +15,14 @@ public class DriverTest {
   }
 
   @Test
-  public void hasType(){
+  public void hasName(){
     assertEquals("Jamie", driver.getName());
+  }
+
+  @Test
+  public void canSetVehicle(){
+    QuadBike quadbike = new Quadbike("Blue")
+    driver.setVehicle(quadbike);
+    assertEquals()
   }
 }

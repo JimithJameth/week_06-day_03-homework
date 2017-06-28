@@ -10,7 +10,7 @@ public class QuadBikeTest {
 
   @Before
   public void before(){
-    quadbike = new QuadBike(30, "50cc");
+    quadbike = new QuadBike("Blue",30, "50cc");
     driver = new Driver("Jamie", quadbike );
   }
 
